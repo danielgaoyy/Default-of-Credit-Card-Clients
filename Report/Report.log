@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  6 JAN 2020 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  6 JAN 2020 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,48 +650,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 35.
-<./image/figure1.png, id=81, 363.3575pt x 151.56625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+<./image/figure1.png, id=81, 385.44pt x 168.63pt>
 File: ./image/figure1.png Graphic file (type png)
 <use ./image/figure1.png>
-Package pdftex.def Info: ./image/figure1.png  used on input line 46.
-(pdftex.def)             Requested size: 170.71706pt x 113.81316pt.
-<./image/figure2.png, id=83, 327.2225pt x 157.58875pt>
-File: ./image/figure2.png Graphic file (type png)
-<use ./image/figure2.png>
-Package pdftex.def Info: ./image/figure2.png  used on input line 53.
-(pdftex.def)             Requested size: 170.71588pt x 113.81247pt.
-<./image/figure3.png, id=85, 262.9825pt x 290.08376pt>
-File: ./image/figure3.png Graphic file (type png)
-<use ./image/figure3.png>
-Package pdftex.def Info: ./image/figure3.png  used on input line 60.
-(pdftex.def)             Requested size: 170.7239pt x 113.80943pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--66
-
- []
-
+Package pdftex.def Info: ./image/figure1.png  used on input line 48.
+(pdftex.def)             Requested size: 227.61935pt x 113.8126pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./image/figure2.png, id=83, 397.485pt x 197.73875pt>
+File: ./image/figure2.png Graphic file (type png)
+<use ./image/figure2.png>
+Package pdftex.def Info: ./image/figure2.png  used on input line 55.
+(pdftex.def)             Requested size: 227.63019pt x 113.81053pt.
+<./image/figure3.png, id=84, 281.05pt x 313.17pt>
+File: ./image/figure3.png Graphic file (type png)
+<use ./image/figure3.png>
+Package pdftex.def Info: ./image/figure3.png  used on input line 62.
+(pdftex.def)             Requested size: 170.71548pt x 170.71965pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--67
+
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -701,168 +696,168 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2 <./image/figure1.png> <./image/figure2.png> <./image/figure3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 102.
 
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 106.
+(hyperref)                removing `\@ifnextchar' on input line 103.
 
-<./image/feature-importance.png, id=134, 412.54124pt x 279.0425pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 107.
+
+<./image/feature-importance.png, id=132, 412.54124pt x 279.0425pt>
 File: ./image/feature-importance.png Graphic file (type png)
 <use ./image/feature-importance.png>
-Package pdftex.def Info: ./image/feature-importance.png  used on input line 119
+Package pdftex.def Info: ./image/feature-importance.png  used on input line 120
 .
 (pdftex.def)             Requested size: 170.71672pt x 113.81206pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--123
+Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./image/rf-auc.png, id=138, 387.4475pt x 262.9825pt>
+<./image/rf-auc.png, id=136, 387.4475pt x 262.9825pt>
 File: ./image/rf-auc.png Graphic file (type png)
 <use ./image/rf-auc.png>
-Package pdftex.def Info: ./image/rf-auc.png  used on input line 127.
+Package pdftex.def Info: ./image/rf-auc.png  used on input line 128.
 (pdftex.def)             Requested size: 170.7198pt x 113.8106pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--131
+Underfull \hbox (badness 10000) in paragraph at lines 125--132
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-<./image/lda-roc.png, id=152, 315.1775pt x 213.79875pt>
+<./image/lda-roc.png, id=148, 315.1775pt x 213.79875pt>
 File: ./image/lda-roc.png Graphic file (type png)
 <use ./image/lda-roc.png>
-Package pdftex.def Info: ./image/lda-roc.png  used on input line 143.
+Package pdftex.def Info: ./image/lda-roc.png  used on input line 144.
 (pdftex.def)             Requested size: 170.71751pt x 113.80865pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./image/feature-importance.png> <./image/rf-auc.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
-<./image/sigmoid.png, id=162, 310.66063pt x 204.26312pt>
+<./image/sigmoid.png, id=160, 310.66063pt x 204.26312pt>
 File: ./image/sigmoid.png Graphic file (type png)
 <use ./image/sigmoid.png>
-Package pdftex.def Info: ./image/sigmoid.png  used on input line 164.
+Package pdftex.def Info: ./image/sigmoid.png  used on input line 165.
 (pdftex.def)             Requested size: 170.71692pt x 113.81306pt.
+[6 <./image/lda-roc.png>]
+<./image/softmax.png, id=173, 278.54062pt x 179.16937pt>
+File: ./image/softmax.png Graphic file (type png)
+<use ./image/softmax.png>
+Package pdftex.def Info: ./image/softmax.png  used on input line 178.
+(pdftex.def)             Requested size: 170.7213pt x 113.81229pt.
+<./image/relu.png, id=174, 1927.2pt x 1401.235pt>
+File: ./image/relu.png Graphic file (type png)
+<use ./image/relu.png>
+Package pdftex.def Info: ./image/relu.png  used on input line 190.
+(pdftex.def)             Requested size: 170.70569pt x 113.79019pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./image/lda-roc.png>]
-<./image/softmax.png, id=175, 278.54062pt x 179.16937pt>
-File: ./image/softmax.png Graphic file (type png)
-<use ./image/softmax.png>
-Package pdftex.def Info: ./image/softmax.png  used on input line 177.
-(pdftex.def)             Requested size: 170.7213pt x 113.81229pt.
-<./image/relu.png, id=176, 1927.2pt x 1401.235pt>
-File: ./image/relu.png Graphic file (type png)
-<use ./image/relu.png>
-Package pdftex.def Info: ./image/relu.png  used on input line 189.
-(pdftex.def)             Requested size: 170.70569pt x 113.79019pt.
- [7 <./image/sigmoid.png> <./image/softmax.png> <./image/relu.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 []\T1/ptm/m/n/10 (+20) Neural Net-works
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--221
+Underfull \hbox (badness 10000) in paragraph at lines 209--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--221
+Underfull \hbox (badness 10000) in paragraph at lines 209--222
+
+ []
+
+[7 <./image/sigmoid.png> <./image/softmax.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Underfull \vbox (badness 2057) has occurred while \output is active []
-
- [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
-
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+ [8 <./image/relu.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 1A5C7263E520560D3C1A5625910B1B22;1382.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
  ) 
 Here is how much of TeX's memory you used:
  18982 strings out of 492616
  334420 string characters out of 6129482
- 564954 words of memory out of 5000000
+ 563954 words of memory out of 5000000
  22509 multiletter control sequences out of 15000+600000
  576538 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,63p,1496b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,63p,1496b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -877,10 +872,10 @@ f-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Report.pdf (9 pages, 431028 bytes).
+Output written on Report.pdf (9 pages, 451715 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
+ 274 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
  61 named destinations out of 1000 (max. 500000)
  24774 words of extra memory for PDF output out of 24883 (max. 10000000)
 

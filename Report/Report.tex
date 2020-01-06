@@ -39,30 +39,31 @@ The approach selected comprises of feeding the data to 3 main algorithms: \textb
 The objective of this section is to gain a better grasp of the problem and the variables that govern it. The techniques applied were primarily visualisation and feature selection methods. These techniques accurately demonstrate the dependence of the variables to the problem and their different natures.
 
 \subsection{Data Visualization}
-Before construction of the model began, an exploratory data analysis (EDA) was carried out on the training data. It is an important step in building a model as it provides valuable insights that can later be very useful when training and developing the final model. It also made it easier to assess how the dependent classes differed along any of the independent variables. This was necessary in order to gain a better grasp of which independent variables held the most discriminatory power. \\ \\
-Initially, the dataset was loaded onto a machine learning platform known as h2o\cite{h2o}. This allowed us to discover details such as the range of values in a given column or the number rows. Looking at this metadata provides a better understanding of the dataset. Loading the data also meant variables could now be classified into categorical and numeric groups. Different visualisation tools could then be applied to the dataset after this.  \\ \\
+Before construction of the model began, an exploratory data analysis (EDA) was carried out on the training data. It is an important step in building a model as it provides valuable insights that can later be very useful when training and developing the final model. It also made it easier to assess how the dependent classes differed along any of the independent variables. This was necessary in order to gain a better grasp of which independent variables held the most discriminatory power.  \\ \\
+ 
+Initially, the dataset was loaded onto a machine learning platform known as h2o\cite{h2o}. This allowed us to discover details such as the range of values in a given column or the number rows. Looking at this metadata provides a better understanding of the dataset. Loading the data also meant variables could now be classified into categorical and numeric groups. Different visualisation tools could then be applied to the dataset after this.
+
 \begin{figure}[h]
  \centering
- \includegraphics[width=6cm, height=4cm]{figure1.png}
- \caption{Figure 1}
+ \includegraphics[width=8cm, height=4cm]{figure1.png}
+ \caption{Density plot for AGE on the left and PAY0 on the right}
  \label{fig:figure1}
 \end{figure}
 The first visualisation tool applied was density plots. A density plot visualises the distribution of data over a continuous interval. As shown in the figure below, this process involved grouping the data for each independent variable based on the dependent classes. This process was done for all the independent variables and it was    found that the most representative attributes were \textbf{PAY0}, \textbf{PAY2}, \textbf{PAY3}, \textbf{PAY4}, \textbf{PAY5}, \textbf{PAY6}, \textbf{SEX}, \textbf{EDUCATION}, \textbf{MARRIAGE}. This indicated in the figure below highlighting the density plots for \textbf{PAY0} and \textbf{AGE} with \textbf{AGE} showing significantly less representation than \textbf{PAY0}. \\ \\
 \begin{figure}[h]
  \centering
- \includegraphics[width=6cm, height=4cm]{figure2.png}
- \caption{Figure 2}
+ \includegraphics[width=8cm, height=4cm]{figure2.png}
+ \caption{Boxplot showing variance in credit limit for different marital statuses }
  \label{fig:figure2}
 \end{figure}
-Box plots are another tool that can be used to help better visualise a dataset. They provide a better way to consider range and other important characteristics regarding the dataset. Figure 2 \ref{fig:figure2}below compares age (x-axis) and default status (y-axis), grouping each box plot based on education status. The box plot distributions for graduate, university and high-school are relatively similar for both default statuses. This indicates that these education groups are not very determinant regarding default. However, this changed when considering the remaining education categories. As figure 2 shows, the box plots for education statuses 4-6 vary significantly for both default statuses. Default status 1 shows little variance indicating more agreement.\\ \\
+Box plots are another tool that can be used to help better visualise a dataset. They provide a better way to consider range and other important characteristics regarding the dataset. Figure 2 below compares age (x-axis) and default status (y-axis), grouping each box plot based on education status. The boxplots for marital status 3 are relatively short and have the lowest median suggesting more agreement within that part of the dataset. This is in contrast with the tall boxplots for marital status 1. Overall, the boxplots appear to have a relatively similar median value but varying distribution suggesting similarity in certain parts of the dataset and more variability in others.  \\ \\
 \begin{figure}[h]
  \centering
- \includegraphics[width=6cm, height=4cm]{figure3.png}
- \caption{Repayment Status}
+ \includegraphics[width=6cm, height=6cm]{figure3.png}
+ \caption{Correlation plot for bill statements from April (2005) - September (2005)}
  \label{fig:figure3}
 \end{figure}
-A correlation matrix is shown in Figure 3\ref{fig:figure3}. This is a table that shows the value of the correlation coefficient between sets of variables. This correlation matrix compares repayment status and default status. There is some correlation between repayment status and default status. This suggests a link between an ability to keep up with payments and defaulting. Similar matrices were also created for the other independent variables. Some correlation was also found between balance limit and default status whilst not much was found between default status and other categorical variables. This indicates that balance limit could be a crucial factor in determining default status. \\ \\
-Ultimately, some patterns can be found, but no clear conclusion can be made with this level of analysis. Therefore, a more in-depth approach is required to successfully predict the default status of customers. 
+A correlation matrix is shown in Figure 3. This is a table that shows the value of the correlation coefficient between sets of variables. This correlation matrix compares repayment status and default status. There is strong positive correlation shown between the variables. The correlation decreases as the distance between the variables increases. Ultimately, some patterns can be found, but no clear conclusion can be made with this level of analysis. Therefore, a more in-depth approach is required to successfully predict the default status of customers. 
 
 \subsection{Dimensionality Reduction: Principal Component Analysis (PCA)}
 As we can see from the data description, $X12$ to $X17$ are the variables for \textbf{Amount of bill statement}, $X18$ to $X23$ are the variables for \textbf{Amount of previous payment}, also, $X1$ for the \textbf{Amount of given credit}. So there is no doubt that there are correlations between these variables. As such, we can think of this problem as we have k+n vectors in k dimensions. We approach this problem by finding the principal components. Principal components are directions along which original data are highly variable. We can achieve this by projecting each data point $x_n$ onto a scaler unit $u_{1}^{T}x_n$ 
