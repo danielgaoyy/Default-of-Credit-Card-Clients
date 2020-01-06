@@ -65,6 +65,24 @@ A correlation matrix is shown in Figure 3\ref{fig:figure3}. This is a table that
 Ultimately, some patterns can be found, but no clear conclusion can be made with this level of analysis. Therefore, a more in-depth approach is required to successfully predict the default status of customers. 
 
 \subsection{Dimensionality Reduction: Principal Component Analysis (PCA)}
+As we can see from the data description, $X12$ to $X17$ are the variables for \textbf{Amount of bill statement}, $X18$ to $X23$ are the variables for \textbf{Amount of previous payment}, also, $X1$ for the \textbf{Amount of given credit}. So there is no doubt that there are correlations between these variables. As such, we can think of this problem as we have k+n vectors in k dimensions. We approach this problem by finding the principal components. Principal components are directions along which original data are highly variable. We can achieve this by projecting each data point $x_n$ onto a scaler unit $u_{1}^{T}x_n$ 
+
+The next thing of interest is, how do we choose the variables after PCA? Fewer variables mean some information will be lost, so a clear strategy would be to keep the variables that contain the most amount of information, in other words, explain most of the variances.
+The total variance present is:
+\begin{equation}
+\frac{1}{N} \sum_{n=1}^{N} x_{n}^{T} x_{n}
+\end{equation}
+The variance by $k$th principal components is:
+\begin{equation}
+\frac{1}{N}\sum_{n=1}^{N}(x_{n}^{T}\mu_{k})^{T}(x_{n}^{T}\mu_{k})=\lambda_k
+\end{equation}
+The proportion of variance explained by $k$th principal components is:
+\begin{equation}
+\frac{\lambda_k}{\frac{1}{N}\sum_{n=1}^{N}x_{n}^{T}x_{n}}
+\end{equation}
+In python, we can simply set the parameter in PCA to be 0.95, which select the number of components such that the amount of variance that needs to be explained is greater than the percentage specified by the number of components.
+Another thing worth mentioning is that PCA takes into account the scale of variables. Since each variable has different scales, it will not be fair to feed them into PCA directly, so a standardisation is applied before the PCA.
+
 
 \section{Overview of Methodology}
 The fundamental basis of the methodology was to test and compare three uniquely different algorithms, then select the most effective one for use in the final solution. To begin with, the data was explored using h20 and coupled with PCA to gain a better understanding of the underlying variables in the problem. Numerous sources\cite{source1,source2,source3} were consulted for this section to ensure all potential options were considered. Once the data is fully prepared, it is fed into the three different algorithms used: Random Forest, LDA, and Neural Networks. Extensive research\cite{h2o,research2}on the most suitable algorithms was carried out in order to justify the algorithms selected. After the final accuracy scores of each algorithm were successfully obtained, they were cross-referenced against one another with the objective of selecting the final, most effective,  model algorithm.\\
@@ -208,9 +226,18 @@ It should be clear that the NN algorithm has the greatest workload out of the th
 In conclusion, the NN model seems to produce the most accurate and reliable results on the testing data set and will be used for the final predictions. Considering the complexity of this model relative to RF and LDA, it is worthwhile to implement due to it being a more heavily robust algorithm.
 
 \section{Final Predictions on Testing Data}
-As mentioned in the previous section, the Neural Network approach (NN) has been selected for the final predictions on the testing data. The preprocessing sections and tuning for the classifier have remained the same as before.
+As mentioned in the previous section, the Neural Network approach (NN) has been selected for the final predictions on the testing data. The preprocessing sections and tuning for the classifier have remained the same as before and can be viewed in the jupyter notebook.
+
+The final NN algorithm produced an accuracy score of 83.25\% on the testing data. The implications of this value is that using the model developed, it is possible to predict with 83.25\% accuracy that a customer is likely to default next month. The NN algorithm does not indicate which of the predictor variables have the greatest significance towards whether or not someone will default. 
+
 
 \section{Conclusions}
+To begin with,  it's worthwhile to mention that there is a wide range of potential methods to approach this problem.  As shown within this paper, different approaches with varying complexity can still produce similar results. This is primarily due to the fact that the data of the problem is not incredibly complex. Therefore, the different algorithms can make predictions of a relatively high degree of accuracy. 
+
+The final approach implemented (NN) made predictions of a substantially high degree of accuracy. However, when comparing the three approaches (RF, LDA and NN)  there isn't that much of a significant variation between their accuracies. Even though they vary in sophistication and complexity, the difference between the highest and lowest accuracy scores is only 2.85\% (NN \& LDA). Yet the intricacy of the NN model is far greater and more sophisticated than that of LDA. 
+
+A potential possibility for future attempts at this project is to try and implement a larger number of unique high level algorithmic approaches. This would prove to be an intriguing proposition, to see how different sophisticated algorithms model and predict the data. Essentially, it would demonstrate whether you can obtain a larger variation between the accuracies of different algorithms. 
+
 
 \bibliographystyle{unsrt}  
 
