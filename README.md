@@ -1,2 +1,5 @@
-# Default-of-Credit-Card-Clients
-BENG0095 Coursework
+
+Predicting Credit Card Default 
+
+A Machine Learning Approach
+

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  6 JAN 2020 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  6 JAN 2020 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**sample.tex
-(./sample.tex
+**Report.tex
+(./Report.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -419,24 +419,69 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-(./sample.aux)
-\openout1 = `sample.aux'.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 26.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count198
+\lst@gtempboxa=\box46
+\lst@token=\toks20
+\lst@length=\count199
+\lst@currlwidth=\dimen163
+\lst@column=\count266
+\lst@pos=\count267
+\lst@lostspace=\dimen164
+\lst@width=\dimen165
+\lst@newlines=\count268
+\lst@lineno=\count269
+\lst@maxwidth=\dimen166
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count270
+\lst@skipnumbers=\count271
+\lst@framebox=\box47
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(./Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 32.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -506,25 +551,25 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 26.
+\AtBeginShipoutBox=\box48
+Package hyperref Info: Link coloring OFF on input line 32.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count198
+\c@section@level=\count272
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
-(./sample.out) (./sample.out)
+(./Report.out) (./Report.out)
 \@outlinefile=\write3
-\openout3 = `sample.out'.
+\openout3 = `Report.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -538,11 +583,43 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count273
+\scratchdimen=\dimen167
+\scratchbox=\box49
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen168
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count279
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -550,7 +627,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -559,52 +636,234 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 28.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 28.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 34.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
- [1
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 35.
+<./image/figure1.png, id=81, 363.3575pt x 151.56625pt>
+File: ./image/figure1.png Graphic file (type png)
+<use ./image/figure1.png>
+Package pdftex.def Info: ./image/figure1.png  used on input line 46.
+(pdftex.def)             Requested size: 170.71706pt x 113.81316pt.
+<./image/figure2.png, id=83, 327.2225pt x 157.58875pt>
+File: ./image/figure2.png Graphic file (type png)
+<use ./image/figure2.png>
+Package pdftex.def Info: ./image/figure2.png  used on input line 53.
+(pdftex.def)             Requested size: 170.71588pt x 113.81247pt.
+<./image/figure3.png, id=85, 262.9825pt x 290.08376pt>
+File: ./image/figure3.png Graphic file (type png)
+<use ./image/figure3.png>
+Package pdftex.def Info: ./image/figure3.png  used on input line 60.
+(pdftex.def)             Requested size: 170.7239pt x 113.80943pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--66
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 118.
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[2 <./image/figure1.png> <./image/figure2.png> <./image/figure3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
 
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
- [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 84.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 88.
+
+
+Underfull \vbox (badness 3407) has occurred while \output is active []
+
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+<./image/feature-importance.png, id=128, 412.54124pt x 279.0425pt>
+File: ./image/feature-importance.png Graphic file (type png)
+<use ./image/feature-importance.png>
+Package pdftex.def Info: ./image/feature-importance.png  used on input line 101
+.
+(pdftex.def)             Requested size: 170.71672pt x 113.81206pt.
 
-(./sample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
-Package rerunfilecheck Info: File `sample.out' has not changed.
-(rerunfilecheck)             Checksum: CA99CE3E4EDE9924FF1893A6DDA53E45;504.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
+Underfull \hbox (badness 10000) in paragraph at lines 98--105
+
+ []
+
+<./image/rf-auc.png, id=132, 387.4475pt x 262.9825pt>
+File: ./image/rf-auc.png Graphic file (type png)
+<use ./image/rf-auc.png>
+Package pdftex.def Info: ./image/rf-auc.png  used on input line 109.
+(pdftex.def)             Requested size: 170.7198pt x 113.8106pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--113
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+[4 <./image/feature-importance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+<./image/lda-roc.png, id=145, 315.1775pt x 213.79875pt>
+File: ./image/lda-roc.png Graphic file (type png)
+<use ./image/lda-roc.png>
+Package pdftex.def Info: ./image/lda-roc.png  used on input line 125.
+(pdftex.def)             Requested size: 170.71751pt x 113.80865pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [5 <./image/rf-auc.png> <./image/lda-roc.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
+
+ []
+
+<./image/sigmoid.png, id=156, 310.66063pt x 204.26312pt>
+File: ./image/sigmoid.png Graphic file (type png)
+<use ./image/sigmoid.png>
+Package pdftex.def Info: ./image/sigmoid.png  used on input line 146.
+(pdftex.def)             Requested size: 170.71692pt x 113.81306pt.
+<./image/softmax.png, id=157, 278.54062pt x 179.16937pt>
+File: ./image/softmax.png Graphic file (type png)
+<use ./image/softmax.png>
+Package pdftex.def Info: ./image/softmax.png  used on input line 159.
+(pdftex.def)             Requested size: 170.7213pt x 113.81229pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./image/sigmoid.png>]
+<./image/relu.png, id=176, 1927.2pt x 1401.235pt>
+File: ./image/relu.png Graphic file (type png)
+<use ./image/relu.png>
+Package pdftex.def Info: ./image/relu.png  used on input line 171.
+(pdftex.def)             Requested size: 170.70569pt x 113.79019pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[]\T1/ptm/m/n/10 (+20) Neural Net-works
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--203
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./image/softmax.png> <./image/relu.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+[8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+ (./Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package rerunfilecheck Info: File `Report.out' has not changed.
+(rerunfilecheck)             Checksum: 1A5C7263E520560D3C1A5625910B1B22;1382.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 16763 strings out of 492616
- 303263 string characters out of 6129482
- 657717 words of memory out of 5000000
- 20450 multiletter control sequences out of 15000+600000
- 582280 words of font info for 134 fonts, out of 8000000 for 9000
+ 18976 strings out of 492616
+ 334357 string characters out of 6129482
+ 564954 words of memory out of 5000000
+ 22509 multiletter control sequences out of 15000+600000
+ 576408 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,63p,239b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,63p,1496b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -612,17 +871,17 @@ ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on sample.pdf (3 pages, 149743 bytes).
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on Report.pdf (9 pages, 423270 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 28737 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 24774 words of extra memory for PDF output out of 24883 (max. 10000000)
 
