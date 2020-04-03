@@ -1,5 +1,10 @@
+## Data:
+Data is taken from the ‘Default of Credit Card Clients’ Data Set taken from the UCI Machine Learning Repository (Lichman, M. (2013). UCI Machine Learning Repository http://archive.ics.uci.edu/ml. Irvine, CA: University of California, School of Information and Computer Science). The data is split into a training and a test data set.
 
-Predicting Credit Card Default 
+## Introduction:
+The approach selected comprises of feeding the data to 3 main algorithms: RandomForest, Linear Discriminant Analysis (LDA) and Neural Networks. Prior to training the models the data is prepared, explored and undergone feature selection. Exploring the data provides a basis of understanding of the variables and their significance, whilst Principal Component Analysis (PCA) is used to better represent the underlying problem and improve the algorithm’s learning capabilities for the data. Prior to any optimization, the Random Forest, LDA/QDA and Neural Network algorithms produced accuracy scores of approximately 80%, X and Y respectively on the training data.
 
-A Machine Learning Approach
-
+## Conclusions:
+To begin with, it’s worthwhile to mention that there is a wide range of potential methods to approach this problem. As shown within this paper, different approaches with varying complexity can still produce similar results. This is primarily due to the fact that the data of the problem is not incredibly complex. Therefore, the different algorithms can make predictions of a relatively high degree of accuracy.
+The final approach implemented (NN) made predictions of a substantially high degree of accuracy. However, when comparing the three approaches (RF, LDA and NN) there isn’t that much of a significant variation between their accuracies. Even though they vary in sophistication and complexity, the difference between the highest and lowest accuracy scores is only 2.85% (NN & LDA). Yet the intricacy of the NN model is far greater and more sophisticated than that of LDA.
+A potential possibility for future attempts at this project is to try and implement a larger number of unique high level algorithmic approaches. This would prove to be an intriguing proposition, to see how different sophisticated algorithms model and predict the data. Essentially, it would demonstrate whether you can obtain a larger variation between the accuracies of different algorithms.
